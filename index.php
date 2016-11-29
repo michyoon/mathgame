@@ -28,7 +28,7 @@
                     $ans = "<span style='color: green; font-weight: bold;'>This is correct!</span>";
                     $score++;
                 } else {
-                    $ans = "<span style='color: red; font-weight: bold;'>This is inThis is correct!!, $firstnum + $secondnum is $result.</span>";
+                    $ans = "<span style='color: red; font-weight: bold;'>This is incorrect!!, $firstnum + $secondnum is $result.</span>";
                 }
                 $total++;
                 break;
@@ -38,7 +38,7 @@
                     $ans = "<span style='color: green; font-weight: bold;'>This is correct!</span>";
                     $score++;
                 } else {
-                    $ans = "<span style='color: red; font-weight: bold;'>This is inThis is correct!!, $firstnum - $secondnum is $result.</span>";
+                    $ans = "<span style='color: red; font-weight: bold;'>This is incorrect!!, $firstnum - $secondnum is $result.</span>";
                 }
                 $total++;
                 break;
